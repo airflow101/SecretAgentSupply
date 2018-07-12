@@ -9,6 +9,7 @@ html{
   width: 960px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -52,6 +53,7 @@ h1{
 }
 
 #banner .container{
+  justify-content: start
   position: relative;
   top: 9rem;
 }
@@ -72,8 +74,70 @@ nav{
 
 ul.container{
   padding: 0.75rem 0;
-  margin: 0 auto;
-  justify-content: space-between;
+  
 }
 
 /* End - Navigation */
+
+/*Content Section*/
+
+#content{
+
+}
+
+.item{
+  border: 4px solid black;
+  width: 30%;
+}
+
+.item img{
+  height: 9rem;
+  width: auto;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.item span{
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+/*Information Section*/
+
+#information{
+  margin: 3rem auto 4rem;
+}
+
+#information div{
+  width: 35%;
+}
+
+#information span{
+  display: block;
+}
+
+.info-type{
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.info-content{
+  color: black;
+}
+
+/*End - Section*/
+
+/*Footer*/
+
+footer{
+  height: 5rem;
+  background-color: black;
+}
+
+footer .container{
+  height: 100%;
+  align-items: center;
+}
+
+/*End - Footer */
