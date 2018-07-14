@@ -74,6 +74,10 @@ ul.container {
   padding: 0.75rem 0;
 }
 
+ul.mobile{
+  display: none;
+}
+
 /* End - Navigation */
 
 /*Content Section*/
@@ -151,3 +155,64 @@ footer .container {
 }
 
 /*End - Footer */
+
+/*Responsive Design*/
+
+@media only screen and (max-width: 1024px){
+  ul.container{
+    display: none;
+  }
+  ul.mobile{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .mobile li{
+    text-align: center;
+  }
+  #content .item{
+    width: 47%
+  }
+  .item.glasses{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .container{
+    width: 90%;
+  }
+  #banner{
+    height: 15rem;
+  }
+  #banner .container{
+    top: 10rem;
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  h4{
+    font-size: 0.77rem;
+  }
+  h1{
+    font-size: 1rem;
+  }
+  #content .item{
+    width: 100%;
+  }
+  .item.watch{
+    display: none;
+  }
+  #information.container{
+    display: block;
+  }
+  #information div{
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  footer div{
+    justify-content: center;;
+  }
+}
